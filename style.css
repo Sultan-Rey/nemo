@@ -1,0 +1,37 @@
+body{
+	
+	
+	background-image: url('image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: #fff;
+}
+.container{
+	background: rgba(80,27,9,0.58);
+}
+.container h6{
+	padding: 4px;
+}
+p{
+	font-weight: bold;
+	color:#d5e0ed;
+}
+#block{
+	margin-top: 10%;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-family:   sans-serif, Arial;
+	font-weight: bolder;
+}
+footer{
+	text-align: center;
+	
+	padding: 20px,0;
+}
+#thanks{
+	display:none;
+}
