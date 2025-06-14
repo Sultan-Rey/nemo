@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HMS - Hope Management System</title>
+        <link rel="icon" type="image/x-icon" href="images/icon.ico">
+         <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <!-- Our Custom CSS -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      />
+        <!-- Font Awesome JS -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+       
+
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar" >
+        <div class="sidebar-header position-static">
+            <div id="heading-icon"></div>
+            <h4>Welcome on HHMS</h4>
+        </div>
+
+        <ul class="list-unstyled components position-fixed">
+                     <p>Hope Management System</p>
+            <li class="active">
+                <a href="#homeSubmenu" class="menu-link" data-slide="0"><i class='fas fa-star' style="margin-right: 10px;"></i>Welcome</a>
+            </li>
+            <li>
+                <a href="#"  class="menu-link" data-slide="2"><i class='fas fa-comment-alt' style="margin-right: 10px;"></i> About</a>
+            </li>
+            <li>
+                <a href="#features" class="menu-link" data-slide="3"><i class='fas fa-star' style="margin-right: 10px;"></i> Key Features</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" class="menu-link" data-slide="4"><i class='fas fa-lock' style="margin-right: 10px;"></i>Privacy</a>
+            </li>
+            <li>
+                <a href="#" class="menu-link" data-slide="5"><i class='fas fa-screwdriver' style="margin-right: 10px;"></i>Accessibilities & Tools</a>
+            </li>
+            <li>
+                <a href="#" class="menu-link" data-slide="6"><i class='fas fa-play' style="margin-right: 10px;"></i>Video Preview</a>
+
+            </li>
+            <li>
+                <a href="#" class="menu-link" data-slide="7"><i class='fas fa-download' style="margin-right: 10px;"></i>Installation</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <!-- Page Content -->
+    <div id="content">
+
+        <nav class="navbar navbar-expand-lg navbar-light   col-12">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div class="container  swipe">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide p-4">
+
+                        <div>
+                            <h2>Get in touch with the most reliable and interactive Hospital System</h2>
+                            <div class="container">
+                                <h5 class="text-white mt-4 mb-4">The Hope Management System offer an intuitive and reactive UI in 3 themes for a better user experience
+                                </h5>
+                            </div>
+                            
+                            <img src="images/ezgif.com-animated-gif-maker.gif" width="700"  class="rounded mx-auto d-block img-fluid" />
+                            <button class="btn btn-info float-right mr-5 mt-5 slide-next">Get Started <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                  </div>
+                  <div class="swiper-slide p-4">
+                    <div class="child-swiper" >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide p-4" style="overflow-y:hidden">
+                                <div class="col-lg-12 col-4">
+                                    <h2>What you need to know</h2>
+                                <div class="container">
+                                    <h5>Medical management is a demanding task, It requires a lot of expenses and huge human ressources.
+                                        HMS is built as a complete solution suitable to many scenarios for the reasons below.
+                                    </h5>
+                                </div>
+                                </div>
+                                
+                                    <div class="container mt-5 p-4" >
+                                        <div class="row g-2 col-lg-12 col-4 " >
+                                            <div class="col-lg-4   mb-2">
+                                                <span class="numeric"><h3>1</h3></span>
+                                                <div class="border rounded p-2">
+                                                    <h6 class="text-center pt-2">Simplification</h6>
+                                                    <div class="card-content">
+                                                        <img src="images/file.png" width="60" height="60" class="img-fluid" />
+                                                        <img src="images/search.PNG" class="img-fluid" />
+                                                        <h6 class="text-justify pt-5 pb-3">Instantly have a access to patient files and relevant data with filters and intuitive search tools</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4  mb-2">
+                                                <span class="numeric"><h3>2</h3></span>
+                                                <div class="border rounded p-2">
+                                                    <h6 class="text-center pt-2">Ultra-reactivity</h6>
+                                                    <div class="card-content">
+                                                        <img src="images/Capture.PNG" class="img-fluid" />
+                                                        <h6 class="text-justify pt-2">Put all your staff on the alert quickly and manage emergencies effectively</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4  mb-2">
+                                                <span class="numeric"><h3>3</h3></span>
+                                                <div class="border rounded p-2">
+                                                    <h6 class="text-center pt-2">On-time update</h6>
+                                                    <div class="card-content">
+                                                        <img src="images/Control.PNG" class="img-fluid" />
+                                                        <h6 class="text-justify pt-5 pb-2">We have centralized everything for you. We have built special tools to give you control on real-time that make you more productive</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="container col-lg-12 col-4  mb-5">
+                                        <button class="btn btn-info float-right mr-2  slide-next">What Next <i class="fas fa-arrow-right"></i></button>
+                                        <button class="btn btn-default  float-left ml-2 slide-back"><i class="fas fa-arrow-left"></i> Return</button>
+
+                                    </div>    
+                                    <div class="text-center text-white mt-5 mb-2 align-bottom col-4 col-lg-12">
+                                        <h6>See more</h6>
+                                        <button class="btn btn-link childslide-next"><i class="fas fa-arrow-down fa-2x"></i></button>
+                                        </div> 
+                            </div>
+                            <div class="swiper-slide p-4 mt-4 col-4 col-lg-12 ">
+                                <div class="row col-lg-12 p-4">
+                                    <div class="col-lg-6 ">
+                                        <h4 class="text-center pt-5">Improve the productivity</h4>
+                                        <h6 class="text-center">Adaptative for hospital, dispensary or clinic HMS regroups features 
+                                            to assist any medical staff in their task to save lifes.
+                                            </h6>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <img src="images/productive.png" class="img-fluid border  rounded shadow-lg" width="300"/>
+                                    </div>
+                                </div>    
+                                <div class="row  mb-4 pb-4  col-lg-12">
+                                    <div class="col-lg-6 ">
+                                        <img src="images/files_classification.png" class="img-fluid border  rounded shadow-lg" width="300"/>
+                                        </div>
+                                    <div class="col-lg-6 ">
+                                        <h4 class="text-center pt-5">Files Classification</h4>
+                                        <h6 class="text-center">Adaptative for hospital, dispensary or clinic HMS regroups features 
+                                            to assist any medical staff in their task to save lifes.
+                                            </h6>
+                                    </div>
+                                   
+                                </div>  
+                                <div class="row  col-lg-12">
+                                    <div class="col-lg-6">
+                                        <h4 class="text-center pt-5">Interconnectivity</h4>
+                                        <h6 class="text-center">Adaptative for hospital, dispensary or clinic HMS regroups features 
+                                            to assist any medical staff in their task to save lifes.
+                                            </h6>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <img src="images/24AB8108-8F41-4DD3-9BFB-5D601A7CC62A (1).png" class="img-fluid   rounded shadow-lg" width="300"/>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                   
+                            
+
+                </div>
+                  <div class="swiper-slide p-4" style="overflow-y: hidden;">
+                        <h2>Key Features</h2>
+                        <div class="container col-lg-8">
+                            <h5>Discover the amazing features we built to help you in your effort to provide excellent health cares
+                            </h5>
+                        </div>
+
+                            <div class="container-fluid p-4 " >
+                                <div class="row">
+                                    <div class="col-lg-3  pb-4">
+                                     
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Staff Management</h6>
+                                            <div class="card-content">
+                                             <img src="images/group.png" class="img-fluid mx-auto d-block" width="100"/>
+                                                <h6 class="text-center pt-2">Manage your staff, control vacancies, work state, identification</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pb-4 ">
+                                        
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Patient Files</h6>
+                                            <div class="card-content">
+                                                <img src="images/filemedical.png" class="img-fluid mx-auto d-block" width="100" />
+                                                <h6 class="text-center pt-2">Instantely get access to a patient files, With efficient search tools</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pb-4">
+                                        
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Consultation</h6>
+                                            <div class="card-content">
+                                                <img src="images/healthcare.png" class="img-fluid mx-auto d-block" width="100" />
+                                               <h6 class="text-center pt-2">Easily diagnostic patients, with special parameters for the process</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="col-lg-3 pb-4">
+                                       
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Hospitalisation</h6>
+                                            <div class="card-content">
+                                                <img src="images/hospital-bed.png" class="img-fluid mx-auto d-block" width="100" />
+                                                <h6 class="text-center pt-2">Follow the health status of your patients, their evolution and treatments.</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                    <div class="col-lg-3 pb-4">
+                                        
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Maternity</h6>
+                                            <div class="card-content">
+                                                <img src="images/pregnant.png" class="img-fluid mx-auto d-block" width="100" />
+                                                <h6 class="text-center pt-2">Specialy build for maternity's staff with medical jargon used</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pb-4">
+                                      
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Insurance</h6>
+                                            <div class="card-content">
+                                                <img src="images/Warranty-Guarantee-Assurance-Quality-512.png" class="img-fluid mx-auto d-block" width="100" />
+                                                <h6 class="text-center pt-2">Healthcare protection, manage compangy fees and services</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pb-4">
+                                      
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Reports & Archives</h6>
+                                            <div class="card-content">
+                                               <img src="images/archive.png" class="img-fluid mx-auto d-block" width="100" />
+                                                 <h6 class="text-center pt-2">Get a support with graphs, control the evolution of your services</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 pb-4">
+                                      
+                                        <div class="border rounded p-2">
+                                            <h6 class="text-center pt-2">Rooms</h6>
+                                            <div class="card-content">
+                                                <img src="images/emergency-room.png" class="img-fluid mx-auto d-block" width="100" />
+                                                <h6 class="text-center pt-2">Be update about rooms availability, materials and costs</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  
+                            </div>
+                            <div class="container p-4">
+                                <button class="btn btn-info float-right mr-2 mt-2 slide-next">Keep Discovering <i class="fas fa-arrow-right"></i></button>
+                                <button class="btn btn-default  float-left ml-2 mt-2 slide-back"><i class="fas fa-arrow-left"></i> Return</button>
+
+                            </div>     
+                  </div>
+                  <div class="swiper-slide p-4" >
+                    <div class="child-swiper col-12 ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h2>Privacy</h2>
+                                <div class="container col-lg-8">
+                                    <h5>We concerned about your data's integrity and their proctection
+                                    </h5>
+                                </div>
+                                <img src="images/A904BCD0-430B-419E-BD1C-C44C2B594B5D.PNG"  width="700" class="mx-auto d-block img-fluid mt-4" />
+                                <div class="container p-4 pb-4 mb-4 mt-5">
+                                    <button class="btn btn-info float-right mr-2 mt-4 slide-next">Next <i class="fas fa-arrow-right"></i></button>
+                                    <button class="btn btn-default  float-left ml-2 mt-4 slide-back"><i class="fas fa-arrow-left"></i> Return</button>
+
+                                </div>    
+                                <div class="text-center text-white pt-5 mt-5 align-bottom">
+                                    <h6>See more</h6>
+                                    <button class="btn btn-link childslide-next"><i class="fas fa-arrow-down fa-2x"></i></button>
+                                    </div>  
+                            </div>
+                            <div class="swiper-slide">
+                                    <div class="row">
+                                        <div class="col-lg-3 pb-4">
+                                         
+                                            <div class="p-2">
+                                                
+                                                <div class="card-content">
+                                                 <img src="images/encrypted.png" class="img-fluid mx-auto d-block" width="100"/>
+                                                 <h6 class="text-center pt-2">Protection</h6>
+                                                    <h6 class="text-center pt-2">We use an encryption algorithm to secure your authentication data</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 ">
+                                            
+                                            <div class="p-2">
+                                                <div class="card-content">
+                                                    <img src="images/data-collection.png" class="img-fluid mx-auto d-block" width="100" />
+                                                    <h6 class="text-center pt-2">Centralisation</h6>
+                                                    <h6 class="text-center pt-2">Data is stored using a file system, giving you access to your information directly on your own servers</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            
+                                            <div class="p-2">
+                                                <div class="card-content">
+                                                    <img src="images/benefit.png" class="img-fluid mx-auto d-block" width="100" />
+                                                    <h6 class="text-center pt-2">Privileges</h6>
+                                                    <h6 class="text-center pt-2">Access to each important module or tool is controlled by a privilege system that only authorized admins have access to</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="col-lg-3">
+                                           
+                                            <div class="p-2">
+                                                <div class="card-content">
+                                                    <img src="images/handshake.png" class="img-fluid mx-auto d-block" width="100" />
+                                                    <h6 class="text-center pt-2">Reliability</h6>
+                                                    <h6 class="text-center pt-2">Information is processed before it is stored to avoid inconsistencies</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                   
+                                      </div>
+
+                                      <div class="row" style="margin-top: 60px;">
+                                        <div class="col-lg-6">
+                                            <img src="images/D0DBFCD9-EE15-418A-BDF5-6462E55FFAE5.PNG" class="img-fluid" width="700" />
+                                        </div>
+                                        <div class="col-lg-6 mt-4">
+                                            <h6>The lock icon in the top corner right of each module window, represent the level access granted for the current module,
+                                                It defines your rights to edit, delete or create new data. Allowed admins can change these privileges into the users panel 
+                                            </h6>
+                                            <p>If you want to know more about this option, click on the button below</p>
+                                            <a><button class="btn btn-outline-info btn-lg">Know more about</button></a>
+                                        </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide p-4">
+                    <div class="child-swiper col-12">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h2>Accessibilities and tools</h2>
+                                    <div class="container col-lg-8">
+                                        <h5>Discover the hospital software which integrated communication tools for a whole institution
+                                        </h5>
+                                    </div>
+                                    <img src="images/C8EAAD3B-E99B-438E-B806-FBCD238D165F.PNG"  width="600" class="rounded mx-auto d-block img-fluid" />
+                                    <div class="container p-4 mt-5 mb-5">
+                                        <button class="btn btn-info float-right mr-2 mt-4 slide-next">Next <i class="fas fa-arrow-right"></i></button>
+                                        <button class="btn btn-default  float-left ml-2 mt-4 slide-back"><i class="fas fa-arrow-left"></i> Return</button>
+
+                                    </div>    
+                                    <div class="text-center text-white mt-3 pt-4 align-bottom">
+                                        <button class="btn btn-link childslide-next"><i class="fas fa-arrow-down fa-2x"></i></button>
+                                        </div>  
+                                </div>
+                            <div class="swiper-slide">
+                                <div class="row  mb-4 pb-4" >
+                                    <div class="col-lg-6">
+                                        <h4 class="text-center pt-5">Connect with teammates</h4>
+                                        <h6 class="text-center">Exchange professional data through the intern mailbox
+                                            with your teammates or sercives to services.
+                                            </h6>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <img src="images/mailbox.PNG" class="img-fluid border  rounded shadow-lg" width="300"/>
+                                    </div>
+                                </div>    
+                                <div class="row  mb-4 pb-4">
+                                    <div class="col-lg-4 ">
+                                        <img src="images/taskManager.PNG" class="img-fluid border  rounded shadow-lg" width="250"/>
+                                        </div>
+                                    <div class="col-lg-6 ">
+                                        <h4 class="text-center pt-5">Taskmanager</h4>
+                                        <h6 class="text-center">Schedule your tasks, be more productive and never miss an appointement, 
+                                            an Intervention that requires your attention. 
+                                            </h6>
+                                    </div>
+                                   
+                                </div>  
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h4 class="text-center pt-5">Alert control</h4>
+                                        <h6 class="text-center">With this feature you can warn up all your teams, a service or a specific
+                                            staff member. your staff stay ready on any instant.
+                                            </h6>
+                                    </div>
+                                    <div class="col-lg-6">
+                                    <img src="images/alerts.png" class="img-fluid   rounded shadow-lg" width="250"/>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide p-4">
+                    <h2>Want to see more about</h2>
+                                <div class="container col-lg-8">
+                                    <h5>See the demonstration video and learn more about the HMS and his features
+                                    </h5>
+                                </div>
+                                <video class="mx-auto d-flex mt-5 col-12 col-lg-12" width="700" controls autoplay>
+                                    <source src="movie.mp4" type="video/mp4">
+                                    <source src="movie.ogg" type="video/ogg">
+                                    Your browser does not support the video tag.
+                                  </video>
+                                    <div class="container p-4 col-lg-12 col-12">
+                                        <button class="btn btn-info float-right mr-2  slide-next">Next <i class="fas fa-arrow-right"></i></button>
+                            <button  type="button" class="btn btn-secondary btn-md  float-right mr-2 ">Buy It now</button>
+                            <button class="btn btn-default  float-left ml-2  slide-back"><i class="fas fa-arrow-left"></i> Return</button>
+
+                        </div>
+
+                </div>
+                <div class="swiper-slide p-4">
+                   
+                    <h2>Ready to Install! Let's Go!</h2>
+                                    <div class="container col-lg-8">
+                                        <h5>This user guide, will help you in a few steps to setup and use HMS easily
+                                        </h5>
+                                    </div>
+                    <div id="accordion" >
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Installation and configuration
+                              </button>
+                            </h5>
+                          </div>
+                    
+                          <div id="collapseOne" class="collapse  show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <p>After successfully installed the software, you will have to
+                                        make this simple configuration at first start.
+                                    </p>
+                                </div>
+                                
+                                <div class="row p-4">
+                                    <div class="col-lg-4 pb-5">
+                                        <img src ="images/file_location.PNG" name="step2" width="250" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h6><b>Step 1</b></h6>
+                                        <h6>Configure file location</h6>
+                                        <p class="text-justify">As the HMS is built to run into a windows server and use a file system
+                                           as database you will have to determine where you want to save that **important** data on the admin
+                                           computer.
+                                        </p> 
+                                    </div>
+                                </div>
+                                <div class="row p-4">
+                                    <div class="col-lg-6">
+                                        <h6><b>Step 2</b></h6>
+                                        <h6>Set Super-user Account</h6>
+                                        <p class="text-justify">You have to add a super-user, you will have to provide a name for the account Owner,
+                                            a username with an password. the super-user is the first granted user recognize by the system with full
+                                            privilege over all modules and features.
+                                        </p> 
+                                    </div>
+                                    <div class="col-lg-4 pb-5">
+                                        <img src ="images/Configuration.PNG" name="step2" width="250" />
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Authentification and Login
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                <div class="row p-2 pb-4">
+                                    <div class="col-lg-6">
+                                        <img src ="images/login.PNG"  width="400" />
+                                    </div>
+                                    <div class="col-lg-6">
+                                        
+                                        <h6><b>As first user, use the Super-user's credential data you just created</b></h6>
+                                        <p>Each time you will launch the HMS, you will have to submit your credential</p>
+                                        <p class="text-justify">All features will set disabled until you provide a valid username and password
+                                        </p> 
+                                    </div>
+                                </div>
+                                                <div class="row p-1 pt-5">
+                                                    
+                                                       
+                                                    <div class="col-lg-12 text-center"><p>HMS propose a greatfull UX through an intuitive UI with a lot of tools!</p></div>
+                                                    <div class="col-lg-7">
+                                                        <img src ="images/uiExplain.JPEG"  width="600" />
+                                                    </div>
+                                                    <div class="col-lg-5 mt-4">
+                                                        <ul>
+                                                            <li>1- Menu bar and features </li>
+                                                            <li>2- User panel button, you can perform a right-click over this button for logging out</li>
+                                                            <li>3- Alert panel - after being read a alert message will automatically desappear</li>
+                                                            <li>4- Quick access link</li>
+                                                            <li>5- Mailbox preview - the small icon in top right on this panel give you access to the mailbox</li>
+                                                            <li>6- Task overview tab</li>
+                                                            <li>7- Themes controller options</li>
+                                                            <li>8- Productivity panel</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                              <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accessibilities, features and tools
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                              <div class="card-body">
+                                <div class="text-center">
+                                    <p>At this point we going to introduce you one by one each features!</p>
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">The Staff Management</h6>
+                                    <img src ="images/staffEx.JPEG"   width="850" class="mx-auto d-block p-4 img-fluid" />
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Patient Files</h6>
+                                    <div class="row">
+                                        <div class="col-lg-6">  <img src ="images/patientFile.png"   width="500" class="mx-auto d-block p-4 img-fluid" /></div>
+                                        <div class="col-lg-6"> <p class="mt-4 text-dark">Each patient record is represented by a file named with that patient's file number. By double-clicking on a folder, you can access it. The files are prioritized so that each folder contains subfolders containing data about the patient's health status.</p>
+                                        <p><img src="images/option.PNG" alt="option" class="img-fluid" name="option"><label class="text-dark" for="option">By right-clicking on a folder you can access the options. which allows you to open the file, print it or produce a bill.</label></p>
+                                        <p><img src="images/billing_invoice.png" width="400" alt="option" class="img-fluid" name="option"><label class="text-dark" for="option">When you hit the <b class="text-dark">Create Bill</b> option of the contextual menu over a patient file, the system collect all data related to costs and expendentures associate to this patient for the current period of hospitalisation or consultation and produce a billing sheet which take account of the fees covered by insurance</label></p>    
+                                    </div>
+                                    </div>
+                                  
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Consultation</h6>
+                                    <div class="row">
+                                        <div class="col-lg-6"> <p class="mt-4 text-dark">The consultation window allows you to save relevant data on the state of health of your patients, ranging from signs to diagnoses made by the consulting doctor, as well as the prescription.</p>
+                                            <p>**If you wish to hospitalize a patient after consultation, simply check the “Hospitalization needed” box before saving</p></div>
+                                        <div class="col-lg-6"><img src ="images/consultation.png"   width="500" class="mx-auto d-block p-4 img-fluid" /></div>                                        
+                                    </div>
+                                   
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Hospitalisation</h6>
+                                    <div class="row">
+                                        <div class="col-lg-9">  <img src ="images/hospitalization.png"   width="700" class="mx-auto d-block p-4 img-fluid" /></div>
+                                        <div class="col-lg-3"> <p class="mt-4 text-dark">HMS offers the possibility of monitoring the progress of each patient's hospitalization. monitored his treatment and his state of health.</p>
+                                               </div>
+                                    </div>
+                                  
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Maternity</h6>
+                                    <div class="row g-2">
+                                        <div class="col-lg-6 p-4"><img src ="images/maternity.png"  name="babyForm"  width="500" class="mx-auto d-block p-3 img-fluid" />
+                                                                    <label for="babyForm">Baby(ie) Information Panel</label>
+                                                                    <img src ="images/Apgar.png"  name="apgar"  width="400" class="mx-auto d-block p-3 img-fluid" />
+                                                                    <label for="apgar"><p>The baby Information panel of the maternity module uses an international scoring system known as APGAR Score. this system makes it possible to indicate information relating to the state of health of new born babies.</p>
+                                                                                        <p><img src ="images/saving.png"  name="apgar"  width="300" class="mx-auto d-block p-3" />The system takes into account several cases of simultaneous birth for the same person. Each time a new born of the same individual is registered, simply press the <b class="text-primary">Save & add</b> or <b class="text-primary">Save Only</b> button if no other new born will be registered.</p></label>
+                                                                </div>
+                                        <div class="col-lg-6 p-4"><img src ="images/delivery.PNG" name="delivery"  width="500" class="mx-auto d-block p-3 img-fluid" />
+                                            <label for="babyForm">Delivery Information Panel</label>
+                                            <p>The Delivery Information panel allows you to save data on a delivery in progress or completed</p>
+                                            <p>By default the delivery status is initialized to <b class="text-primary">Awaiting</b>. in this case, the buttons of the New Born panel are disabled</p>
+                                        <ul class="list-group">
+                                            <li class="list-unstyled"><img src ="images/select_patient.png"   width="400" class="mx-auto  d-block p-3 img-fluid" /><p>To be eligible for maternity care, the patient must be on the list of hospitalized patients and be female. Once these constraints have been raised, the patient's file number will appear in the drop-down menu above.</p>
+                                            <li class="list-unstyled"><img src ="images/add.png"   width="50" class="d-inline  justify-content p-2 img-fluid" />To admit a new patient into martenity list</li>
+                                            <li class="list-unstyled"><img src ="images/clear.png"   width="50" class="d-inline p-2 img-fluid" />To completely clear the forms</li>
+                                            <li class="list-unstyled"><img src ="images/delete.png"   width="50" class="d-inline p-2 img-fluid" />To remove a patient from martenity list</li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Insurance</h6>
+                                    <div class="row">
+                                        <div class="col-lg-7">  <img src ="images/insurance.png"   width="600" class="d-block p-4 img-fluid" /></div>
+                                        <div class="col-lg-5"> <p class="mt-4 text-dark">Managing insurance services allows you to pay patient expenses and produce invoices that take into account the costs covered by the companies.</p>
+                                            <p class="mt-4 text-dark">This module is not responsible for managing all of the services that can be offered by an insurance company, however it is involved in regulating costs in cases of hospitalization, consultation, treatment, billing and more.</p>
+                                            <img src ="images/buttons.png"   width="250" class="mx-auto d-block p-4 img-fluid" /> 
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Reports</h6>
+                                     <img src ="images/reports.png"   width="800" class=" mx-auto d-block p-4 img-fluid" />
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Rooms</h6>
+                                    <div class="row">
+                                        <div class="col-lg-8">  <img src ="images/room_details.png"   width="750" class="d-block p-4 img-fluid" /></div>
+                                        <div class="col-lg-4"> <p class="mt-4 text-dark">The room module was created to allow the management of rooms, rooms and the equipment available in the hospital.</p>
+                                        <p class="text-dark">This module plays an important role in billing, thanks to the precision it gives on resource utilization and associated costs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="text-secondary text-bold text-center  border rounded">Users</h6>
+                                    <div class="row">
+                                        <div class="col-lg-7">  <img src ="images/user.png"   width="750" class="d-block p-4 img-fluid" />
+                                            <img src ="images/Access.PNG"   width="350" class="mx-auto d-block p-4 img-fluid" /> 
+                                            <p class="mt-4 text-dark">To define the privileges on a module or an accessibilities. All you have to do is right-click on the three-point icon and choose the appropriate option from the context menu that appears.</p>
+                                            <ul class="list-group">
+                                                <li class="list-unstyled"><img src ="images/unlocked.png"   width="50" class="d-inline  justify-content p-2 img-fluid" />Indicates that you have full privileges over this module</li>     
+                                                <li class="list-unstyled"><img src ="images/unlocked[1].png"   width="50" class="d-inline  justify-content p-2 img-fluid" />Indicates that you only allow to write</li>
+                                                <li class="list-unstyled"><img src ="images/unlock.png"   width="50" class="d-inline justify-content p-2 img-fluid" />Indicates that you only allow to read</li>
+                                                                                         </ul>
+                                        </div>
+                                        <div class="col-lg-5"> <p class="mt-4 text-dark">the user module allows you to manage accounts, privileges, accessibilities, authentication parameters as well as the creation of new services in the hospital.</p>
+                                            <p class="mt-4 text-dark">Depending on your access rights, certain functionalities of this module will not be accessible to you, the <b class="text-info">LOCK icon</b> at the top right of each window defines your privileges on a given module. This privilege in itself is predefined during the creation of each account by a legal administrator.</p>
+                                            <img src ="images/user_panel.png"   width="300" class="mx-auto d-block p-4 img-fluid" /> 
+                                            <p class="mt-4 text-dark">the module is divided into two main panels, the first panel, the <b class="text-info">USER Panel</b>  gives information relating to the current user in case the creation of a new user is not in progress</p>
+                                            <p class="mt-4 text-dark">It is possible for the logged in user if they have the right to modify their password through this panel.</p>
+                                            <img src ="images/options_panel.png"   width="350" class="mx-auto d-block p-4 img-fluid" /> 
+                                            <p class="mt-4 text-dark">The second panel located underneath contains the accessibilities, modules and preferences to define for a user. they cannot be modified by an average user</p>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <!-- Add more sections as needed -->
+                    
+                      </div>
+                </div>
+                <!-- If we need pagination 
+                <div class="swiper-pagination"></div>-->
+              
+                <!-- If we need navigation buttons 
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                -->
+                
+              </div>
+        </div>
+        
+    </div>
+</div>
+
+    
+        <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+   
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+
+        const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.slide-next',
+      prevEl: '.slide-back',
+    },
+  
+  });
+  const childswiper = new Swiper('.child-swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    navigation: {
+      nextEl: '.childslide-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });
+
+  const menuLinks = document.querySelectorAll('.menu-link');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            const targetSlide = this.getAttribute('data-slide');
+            swiper.slideTo(targetSlide - 1); // Swiper utilise des indices 0-based
+        });
+    });
+
+});
+</script>
+
+
+
+    </body>
+</html>
